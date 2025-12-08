@@ -11,7 +11,7 @@ namespace Tyuiu.RochevYA.Sprint6.Task5.V25
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string text = "-17\r\n0\r\n12\r\n-14,32\r\n5\r\n-7,84\r\n12,89\r\n-1,57\r\n-3,64\r\n-13,26\r\n-8,91\r\n-17,77\r\n35\r\n-9\r\n13,83\r\n12,76\r\n8,86\r\n0\r\n-1,49\r\n-7\r\n";
+            string text = @"C:\Users\ярослав\source\repos\Files for Sprint6\Sprint6Task5\InPutDataFileTask5V25.txt";
             DataService ds = new DataService();
             double[] resluts = ds.LoadFromDataFile(text);
 
