@@ -17,7 +17,7 @@ namespace Tyuiu.RochevYA.Sprint6.Task6.V10.Lib
 
                 foreach (string word in words)
                 {
-                    if (word.IndexOf('w', StringComparison.OrdinalIgnoreCase) >= 0)
+                    if (word.IndexOf('w') >= 0)
                     {
                         foundWords.Add(word);
                     }
